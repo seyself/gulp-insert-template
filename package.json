@@ -1,6 +1,6 @@
 {
   "name": "gulp-insert-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "gulp-insert-template",
   "main": "index.js",
   "scripts": {

@@ -21,7 +21,7 @@
     "url": "https://github.com/seyself/gulp-insert-template/issues"
   },
   "homepage": "https://github.com/seyself/gulp-insert-template",
-  "devDependencies": {
+  "dependencies": {
     "gulp-util": "^3.0.4",
     "lodash": "^3.7.0",
     "path": "^0.11.14",

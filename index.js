@@ -57,7 +57,7 @@ module.exports = function (options)
 function getExportContentsData(text)
 {
   var data = {};
-  text.replace(/<_([^>]+)>((.|\s)+)<\/_\1>/igm, function(text, tagName, content){
+  text.replace(/<_([^>]+)>((.|\s)*?)<\/_\1>/igm, function(text, tagName, content){
     data[tagName] = content;
   });
   return data;

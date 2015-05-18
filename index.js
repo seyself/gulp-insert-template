@@ -10,7 +10,7 @@ module.exports = function (options)
 {
   function transform(file, encoding, callback)
   {
-    console.log("'gulp-insert-template': " + path.relative(process.cwd(), file.path));
+    //console.log("'gulp-insert-template': " + path.relative(process.cwd(), file.path));
 
     if (file.isNull())
     {
